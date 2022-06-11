@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>PresTech</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo.PNG" alt="logo">
+        <H1>Prestech Brasil</H1>
+    </header>
+    <div id="Menu">
+        <a class="fio MenuA" href="#BaseD3">Serviços</a>
+        <a class="fio MenuA" href="#BaseD2">Sobre nós</a>
+        <a class="fio MenuA" href="#BaseD4">Entre em contato</a>
+        <a class="fio MenuA" href="cadastro_login.html">Login/Cadastro</a>
+    </div>
+<main>
+
+    <!--Primeiro Bloco-->
+    <div id="BaseD1">
+        <div id="BD1left">
+            <h2 id="BD1h">Dê um pontapé inicial no seu projeto</h2>
+            <hr>
+            <p>A Prestech tem a solução para a sua empresa, desenvolvendo sites com desing elegante e práticos para os seus clientes e para sua empresa também.<br>Nossos serviços são feitos com tecnologias de alta qualidade, usando sempre os programas e ferramentas de trabalho mais novos do mercado.</p>
+        </div>
+        <img id="img1" src="fotos/img1.jpeg" alt="reunião">
+    </div>
+
+    <!--Segundo Bloco Sobre nos-->
+    <div id="BaseD2">
+        <div class="BD2">
+            <img id="BD2img1" src="logo.PNG" alt="logo">
+            <img id="BD2img2" src="fotos/img3.jpg" alt="diversidade">
+        </div>
+        <div class="BD2">
+            <h2 id="BD2h">Sobre nós</h2><hr>
+            <p> A Prestech Brasil é uma StartUp fundada em 14/12/2018 recente com 4 anos de existência e com foco em soluções para a Web. Foi fundada pelos irmãos Felipe e Victor que ao perceberem uma oportunidade de mercado, teve a iniciativa de criar a empresa Prestech Brasil. Chamou alguns colegas da faculdade para participar e assim surgiu a empresa como é conhecida atualmente.<br> Com o advento da pandemia ocorreu um aumento exponencial no pedido de sites para a empresa consolidando a empresa no mercado brasileiro, e tornando a Prestech Brasil uma empresa bem conceituada no mercado e se tornando referência na área de construção de sites E-commerce e atuando com grandes players do E-commerce como por exemplo, Mercado Livre, Netshoes, Shoope.<br> A empresa atualmente se encontra com 300 funcionários, tendo como principais clientes Coca-Cola, Havainas, Magazine Luiza, Americanas dentre outros.</p>
+        </div>
+    </div>
+
+    <!--Terceiro Bloco Servicos-->
+    <div id="BaseD3">
+        <h2 id="Titulo3">Serviços</h2>
+        <div class="display-flex">
+            <div class="card m-3 flex-direction-column justify-content-space-between">
+                <h2 class="BD3h">Site</h2>
+                <img class="m-1 img" src="fotos/iconi1.png" alt="site">
+                <p class="m-0">Nossa empresa trabalha em cima do que os clientes precisão, como muitos pedidos de sites responcivos para se adaptar a diversos aparelhos e assim conseguindo mais divulgação para os sites dos nossos clientes.</p>
+            </div>
+
+            <div class="card m-3 flex-direction-column justify-content-space-between">
+                <h2 class="BD3h Titulo3">Design</h2>
+                <img class="m-1 img" src="fotos/iconi2.png" alt="desing">
+                <p class="m-0">Nós damos a total liberdade aos nossos clientes de como querem desenvolver o design do próprio site, mas também temos a opição de usar nossos variados tamplates, assim precisando colocar somente todo o conteúdo, palheta de cores e a logo da empresa.</p>
+            </div>
+
+            <div class="card m-3 flex-direction-column justify-content-space-between">
+                <h2 class="BD3h Titulo3">Banco de dados</h2>
+                <img class="m-1 img" src="fotos/iconi3.png" alt="Banco de dados">
+                <p class="m-0">Nós fornecemos toda estrutura back-end para as empresas como ospedagem dos sites, armazenamentos de dados, estruturas de servidores físicos ou nuvem, os tipos de programas necessários para a empresa.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Quarto Bloco Entre em contato-->
+    <div id="BaseD4">
+    <h2 class="Titulo4">Entre em contato</h2>
+        <div class="display-flex">
+            <div class="BD4L">
+                <h3>Contato da Empresa:</h3>
+                <h4>0800-4002-8922</h4>
+                <img id="imgContato" src="fotos/img_contato.jpeg" alt="Coitado do TI">
+            </div>
+            <div class="BD4R">
+                <h2 class="BD4h">Dúvidas sobre produtos e soluções?<br>Estamos aqui para ajudar.</h2>
+                    <div class="flex-input">
+                        <input id="nome" type="text" placeholder="Nome:"/>
+                        <span id="erroNome" class="error not-show">Por favor, preencha seu nome</span>
+                    </div>
+                    <div class="flex-input">
+                        <input id="sobrenome" type="text" placeholder="Sobrenome:"/>
+                        <span id="erroSobrenome" class="error not-show">Por favor, preencha seu Sobrenomenome</span>
+                    </div>
+                    <div class="flex-input">
+                        <input id="email" type="text" placeholder="E-mail:"/>
+                        <span id="erroEmail" class="error not-show">Por favor, preencha seu Email</span>
+                    </div>
+                    <div class="flex-input">
+                        <input id="numeroCelular" type="text" placeholder="Número celular:"/>
+                        <span id="erroNumeroCelular" class="error not-show">Por favor, preencha seu número de Celular</span>
+                    </div>
+                    <button onclick="enviar()" class="btn m-3" type="submit">Enviar</button>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div id="Basedfooter">
+        <div class="Blink">
+            <h2>Recursos da Empresa:</h2>
+            <a class="BFa" href="#logo">Home</a>
+            <a class="BFa" href="#BaseD3">Serviços</a>
+            <a class="BFa" href="#BaseD2">Sobre nós</a>
+            <a class="BFa" href="#BaseD4">Entre em contato</a>
+            <a class="BFa" href="cadastro_login.html">Login/Cadastro</a>
+        </div>
+        <div class="imgF">
+            <img class="iconis" src="fotos/img_fc.png" alt="Facebook">
+            <img class="iconis" src="fotos/img_insta.png" alt="Instragram">
+            <img class="iconis" src="fotos/img_in.png" alt="linkedin">
+        </div>
+    </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>

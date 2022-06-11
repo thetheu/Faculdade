@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+#container{
+    margin: 1em auto;
+    width: 100%;
+    background-color: #fff;
+}
+
+#header{
+    background-color: rgb(114, 206, 223);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mainNav{
+    background-color: #6b9dd6;
+}
+
+#menu{
+    background-color: #98aec9;
+    float: right;
+    width: 20%;
+}
+
+#contents{
+    float: left;
+    width: 75%;
+    background-color: azure;
+    margin: 0 0 0 20px;
+}
+
+#footer{
+    clear: both;
+    height: 25px;
+    background-color: rgb(94, 94, 168);
+}

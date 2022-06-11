@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Prestech</title>
+    <link rel="stylesheet" type="text/css" href="cadastro_login.css">
+</head>
+<body>
+
+    <!-- Nome da empresa e logo -->
+    <div class="DTitulo">
+        <a href="index.html"><img id="logo" src="logo.PNG"></a>
+        <!--<h1 id="titulo">Prestech Brasil</h1>-->
+    </div>
+    <!-- Botoes para rolagens da pagina -->
+    <!-- Fromulario -->
+    <div id="Bform">
+        <div class="Dform">
+            <h2>Login</h2>
+            <div class="flex-input">
+                <input id="email" type="text" placeholder="E-mail"/>
+                <span id="erroEmail" class="error not-show">Email necessário</span>
+            </div>
+            <div class="flex-input">
+                <input id="senha" type="text" placeholder="Senha"/>
+                <span id="erroSenha" class="error not-show">Senha necessária</span>
+            </div>
+                <button class="btn" type="submit" onclick="enviar()">Entrar</button>
+        </div>
+        <div class="Dform">
+            <h2>Cadastro</h2>
+            <form>
+                <input type="text" placeholder="Nome completo"/>
+                <input type="text" placeholder="E-mail"/>
+                <input type="text" placeholder="Senha"/>
+                <input type="text" placeholder="Confirmar senha"/><br>
+                <button class="btn" type="submit">Cadastrar-se</button>
+            </form>
+        </div>
+        <img id="ImgForm" src="preview.gif">
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* Titulo e botao */
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("./fundo_cadastro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgFundo{
+    width: 100%;
+    height: 100%;
+}
+
+.DTitulo{
+    background-color: #000F89;
+    width: 100%;
+    height: 10%;
+   /* margin-left: 5%;*/
+    margin-bottom:5px;
+    /*border-bottom: 1px solid #000;*/
+    display: flex;
+    gap: 25%;
+    padding: 1.5%;
+    text-align: center;
+}
+
+#logo{
+    width: 10%;
+    text-align: left;
+    cursor: pointer;
+}
+a{
+    width: 100%;
+    text-align: left;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 4rem;
+    align-self: center;
+}
+
+#cabeca{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link_p{
+    margin:  auto;
+    margin-right: 4.063rem;
+    font-size: 1.563rem ;
+    cursor: pointer;
+}
+
+.link_p:hover{
+    color: #000F89;
+}
+
+/* Desing do formulario*/
+
+#Bform{
+    /*background-color: #E4EDF2;*/
+    width: 100%;
+    height: 90%;
+    /*margin-left: 5%;*/
+    margin-top: 3%;
+    display: flex;
+    text-align: center;
+   /* box-shadow: 5px 5px 2px rgb(0 0 0 / 30%);*/
+    border-radius: 20px 0px 0px 20px;
+}
+
+.Dform{
+    /*background-color: #E4EDF2;*/
+    width: 30%;
+    height: 30%;
+    align-self: center;
+    margin-left: 3%;
+    box-shadow: 3px 2px 2px 2px rgb(0 0 0 / 30%);
+    background-color: #fff;
+    border-radius: 50px 50px 50px 50px;
+    padding: 2%;
+}
+
+#ImgForm{
+    width: 35%;
+    height: 35%;
+    margin-left: 6%;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 3px 2px 2px 2px rgb(0 0 0 / 30%);
+}
+
+input{
+    border-radius: 50px;
+    border: 1px solid #000F89;
+    color:#000F89;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 70%;
+    height: 35px;
+    outline: none;
+    box-shadow: 5px 3px 3px rgb(0 0 0 / 30%);
+    text-align: left ;
+    padding-left: 25px;
+    font-family: sans-serif;
+}
+
+.btn{
+    box-shadow: 3px 2px 2px rgb(0 0 0 / 30%);
+    width: fit-content;
+    padding: 1% 1.5%;
+    vertical-align:center;
+    height: fit-content;
+    border: 1px solid #000F89;
+    color:#000F89;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color:#000F89;
+}
+
+.flex-input {
+    width: 100%;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.error {
+    width: 75%;
+    font-size: 0.875rem;
+    padding: 1% 2%;
+    color: rgb(223, 31, 31);
+    background-color: rgba(223, 81, 81, 0.4);
+    border-radius: 10px;
+}
+
+.show {
+    display: block
+}
+
+.not-show {
+    display: none;
+}
